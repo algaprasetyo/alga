@@ -1,0 +1,97 @@
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #000000;
+}
+.container {
+    margin: 20px 320px;
+    background-color: #6d6b6b;
+}
+
+.gambar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 40vh;
+    /* background-color: #6b1313; */
+}
+.fotoku {
+    height: 200px;
+    width: 200px;
+    background-image: url("IMG-20231105-WA0007.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.gambar h3 {
+    margin-top: 10px;
+    text-align: center;
+}
+/* profil */
+.profil {
+    height: 30vh;
+    margin-left: 20px;
+}
+.profil table {
+    margin-top: 30px;
+}
+.profil table tr {
+    padding-top: 20px;
+}
+.profil table tr td h4 {
+    font-size: 1.1rem;
+    min-width: 170px;
+}
+.profil table tr td h4,
+p {
+    font-size: 1.1rem;
+}
+/* pendidikan */
+.pendidikan {
+    height: 30vh;
+    margin-left: 20px;
+}
+.pendidikan table {
+    margin-top: 30px;
+}
+.pendidikan table tr td h4 {
+    font-size: 1.1rem;
+    min-width: 170px;
+}
+/* sertifikasi */
+.sertifikasi {
+    height: 30vh;
+    margin-left: 20px;
+}
+.sertifikasi ul {
+    margin-top: 30px;
+}
+.sertifikasi ul li {
+    margin-left: 15px;
+    /* list-style-type: decimal; */
+}
+.sertifikasi ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+/* skill */
+.containerSkill {
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.hardSkill {
+    width: 300px;
+    float: left;
+}
+.softSkill {
+    width: 300px;
+}
